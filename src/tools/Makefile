@@ -6,7 +6,7 @@ LIB_PATH = -lfastcommon -lshmcache -lpthread -ldl
 TARGET_PATH = $(DESTDIR)/usr/bin/
 
 TARGET_PRGS = shmcache_set shmcache_get shmcache_delete shmcache_remove_all \
-			  shmcache_stats
+			  shmcache_stats shmcache_set_batch shmcache_get_batch
 
 ALL_PRGS = $(TARGET_PRGS)
 
